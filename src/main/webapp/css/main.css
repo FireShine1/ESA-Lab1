@@ -1,0 +1,87 @@
+body{
+	color: black;
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	width: 1600px;
+
+}
+table{
+	border-style: solid;
+	border-width: thin;
+    border-collapse: collapse;
+	width: 1229px;
+	height: 697px;
+	margin-top: 82px;
+	margin-left: 172px;
+	justify-content: space-between;
+}
+
+th,tr{
+	border-style: solid ;
+	border-width: thin;
+	height: 83px;
+
+}
+.buttongroup{
+	padding-top: 59px;
+	width: 993px;
+	height: 87.5px;
+	margin-left:594px;
+	justify-content: space-between;
+	display: flex;
+
+}
+.btn{
+	text-align: center;
+	margin-right: 58px;
+	width: 280px;
+	height: 87.5px;
+	background: #C7C7F5;
+	color: #29215A;
+	font-size: 40px;
+	border: 0;
+	box-shadow: 0 3px 6px rgba(95,95,127,0.47);
+}
+
+.form{
+	background: #F1F1FF;
+	width: 710px;
+	margin-left:  472px;
+	box-shadow: 0 3px 6px rgba(95,95,127,0.47);
+}
+
+h2{
+	font-size: 50px;
+	color: #29215A;
+	text-align: center;
+	padding-top: 32px;
+	margin-bottom: 37px;
+
+}
+.input{
+
+	font-size: 40px;
+	color: #29215A;
+	margin-left: 97px;
+	width:540px;
+	height: 82px;
+	margin-bottom: 54px;
+	display: block;
+
+}
+input::-webkit-input-placeholder {
+	color: rgba(41,33,90,0.4);
+	padding-left: 26px;
+}
+
+.input-dish{
+	height: 60px;
+	margin-bottom: 38px;
+}
+
+.btn-form{
+	margin-left: 218px;
+	margin-bottom: 46px
+}
